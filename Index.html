@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial scale = 1.0">
+    <title>FLEXBOX_TEST</title>
+    <style>
+         .flex{
+            padding: 10px;
+            max-width: 300px;
+            border: 2px solid black;
+            display: flex;
+            /* display:flex torna a tag um elemento do tipo flex-container , e assim
+            automaticamente todos os seus filhos diretos dessa tag, tornam-se em flex itens */
+         }
+
+         .item{
+
+            background-color: aqua;
+            margin: 5px;
+            
+         }
+    </style>
+</head>
+
+<body>
+    <!-- quando atribuo ao container div a classe Flex criada anteriormente o seu comportamento 
+    vai mudar, assim também mudando os filhos, fazendo esses elementos filhos respeitarem
+     o tamanho proporcional ao seu conteúdo  -->
+    <div class="flex">
+         <div class="item">Item 1</div>
+         <div class="item">Item 2</div>
+         <div class="item">Item 3</div>
+    </div>
+
+
+
+
+</body>
+
+
+</html>
